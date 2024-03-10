@@ -1,0 +1,105 @@
+@import url('rajdhani.woff2');
+
+/* Whole page */
+*{
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+body{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Scrolling effect */
+html{
+    scroll-behavior:smooth;
+}
+
+p{
+    color:rgb(0, 0, 0);
+}
+
+/* Transition */
+a, .btn{
+    transition: all 300ms ease;
+}
+
+/* Desktop-nav*/
+nav, .nav-links{
+    display:flex;
+    /* justify-content:space-around; */
+    /* align-items:center; */
+    height: 10vh;
+    gap:2rem;
+    list-style: none;
+    font-size: 1.5 rem;
+}
+
+.nav-links{
+    margin-left:auto;
+}
+
+.nav-links a {
+    color: black; 
+}
+
+a{
+    color:black
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem:
+    text-decoration-color: rgb(181,181,181);
+}
+
+/* Logo */
+.logo{
+    font-size: 25px;
+}
+
+.logo:hover{
+    cursor:default;
+}
+
+/* Sections */
+#profile, 
+#about{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 8rem;
+    height: 40vh;
+    margin-bottom: 5rem;
+}
+
+.section_text{
+    font-size: 2rem;
+}
+
+#about,
+#artworks,
+#photos,
+#find_me_here{
+    margin-bottom: 7rem;
+}
+
+.container{
+    margin: 0px;
+    columns: 5;
+    column-gap: 10px;
+}
+
+img:hover{
+    transform:scale(1.3);
+}
+
+/* This project takes inspiration from the works "Responsive Portfollio Website From Scratch" by How to Become a Developer and "Eye-Catching Layout Like pinterest|pure HTML,CSS|no Js" by ZeevhY Org.
+https://youtu.be/ldwlOzRvYOU?si=CufVQ3xp2ut8v4Y3 and https://youtu.be/Gis3O4VO7Ns?si=CDOJe85wuav8R77s */
